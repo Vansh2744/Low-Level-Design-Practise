@@ -6,7 +6,11 @@ class Subscription:
     def info(self):
         print(f"Subscribed : {self.__is_subscribed}  Amount : {self.__amount_paid}")
 
+    def set_amount(self, amount):
+        self.__amount_paid = amount
+
 sub = Subscription(False, 0)
 sub.__is_subscribed = True
 sub.__amount_paid = 999
+sub.set_amount(999)
 sub.info()
