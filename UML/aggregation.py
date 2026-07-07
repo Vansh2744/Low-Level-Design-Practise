@@ -33,3 +33,6 @@ dpt2.add_student(std4)
 dpt2.add_student(std2)
 
 dpt2.show_students()
+
+del dpt2
+print(std1.name)
